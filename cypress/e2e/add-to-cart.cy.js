@@ -1,5 +1,5 @@
-describe('template spec', () => {
-  it('passes', () => {
+describe('Product page', () => {
+  it('product page should be visible', () => {
     cy.visit('https://www.saucedemo.com/');
     cy.contains('Swag Labs');
     cy.get('#user-name').clear().type("standard_user");
